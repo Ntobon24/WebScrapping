@@ -18,3 +18,4 @@ class Grafo:
 
         if bid:
             self.adj_list[v2].append([v1, tipo])
+

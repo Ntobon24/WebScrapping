@@ -122,3 +122,4 @@ def cargar_libros_desde_json(ruta):
     with open(ruta, 'r', encoding='utf-8') as archivo:
         libros = json.load(archivo)
     return libros
+
